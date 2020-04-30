@@ -38,7 +38,7 @@ class Console(w: Int, h: Int) {
         return console
     }
 
-    fun addViewport(v: Viewport) {
+    private fun addViewport(v: Viewport) {
         viewports.add(v)
     }
 
